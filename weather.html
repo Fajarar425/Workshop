@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuaca Hari Ini</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Aplikasi Cuaca</h1>
+    <p>Selamat datang di aplikasi cuaca. Dapatkan informasi cuaca terkini untuk lokasi Anda.</p>
+
+    <div class="input-group">
+      <input type="text" id="city" placeholder="Masukkan nama kota..." aria-label="Kota" />
+      <button id="getWeather">Cari</button>
+    </div>
+
+    <section id="weather" class="hidden">
+      <h2 id="location"></h2>
+      <p id="description"></p>
+      <p id="temperature"></p>
+      <img id="icon" alt="Ikon Cuaca" />
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
